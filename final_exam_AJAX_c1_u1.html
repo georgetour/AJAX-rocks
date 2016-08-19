@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calling XML with AJAX</title>
+</head>
+
+
+<body>
+
+<h1>XML data</h1>
+<div id="showResults"></div>
+
+
+
+
+<script>
+
+
+    function loadXML() {
+
+        var request;
+
+        //For browsers after explorer 7
+        if(window.XMLHttpRequest){
+            request = new XMLHttpRequest();
+        }
+        else{
+            request = ActiveXObject("Microsoft.XMLHTTP");
+        }
+        request.onreadystatechange = function () {
+            if(request.readyState==4&&request.status==200){
+                xmlDoc = request.responseXML;
+
+                //We create an empty txt string so we can have the results in it
+                txt=""  ;
+
+                //We pass at a variable the address tag results
+                x= xmlDoc.getElementsByTagName('address');
+
+                //Let's search all x
+                for (i=0 ; i<x.length; i++){
+                    txt = txt+ x[i].childNodes[0].nodeValue +"<br>";
+                }
+                document.getElementById("showResults").innerHTML = "<strong>Showing all students addresses with AJAX from XML</strong> <br>"+txt;
+
+            }
+        };
+
+        request.open('GET','students.xml',true);
+        request.send();
+    }
+
+
+    loadXML();
+
+
+</script>
+
+
+</body>
+</html>

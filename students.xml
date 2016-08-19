@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<data>
+    <student>
+        <name>George</name>
+        <last_name>Tourtsis</last_name>
+        <address>Xelonaki 5</address>
+        <email>tourtsi@gmail.com</email>
+        <mobile>6546453634</mobile>
+    </student>
+
+    <student>
+        <name>John</name>
+        <last_name>Albas</last_name>
+        <address>zervou 23</address>
+        <email>albas@albas.gr</email>
+        <mobile>5678943267</mobile>
+    </student>
+
+    <student>
+        <name>Leo</name>
+        <last_name>Cool</last_name>
+        <address>agion panton 50</address>
+        <email>thecool@hotmail.com</email>
+        <mobile>2345678567</mobile>
+    </student>
+
+    <student>
+        <name>Hercules</name>
+        <last_name>Pappas</last_name>
+        <address>kountourioti 12</address>
+        <email>hpappas@gmail.com</email>
+        <mobile>6754321567</mobile>
+    </student>
+
+    <student>
+        <name>Fonzie</name>
+        <last_name>Fonzarelli</last_name>
+        <address>venizelou 222</address>
+        <email>fonzie@hotmail.com</email>
+        <mobile>2345678560</mobile>
+    </student>
+
+    <student>
+        <name>Babis</name>
+        <last_name>Tsipouras</last_name>
+        <address>peiraios 143</address>
+        <email>tsipouras@outlook</email>
+        <mobile>8763456711</mobile>
+    </student>
+
+
+
+    <student>
+        <name>Dimitris</name>
+        <last_name>Papadopoulos</last_name>
+        <address>syggrou 321</address>
+        <email>dimpap@papindustries.com</email>
+        <mobile>234590876</mobile>
+    </student>
+
+    <student>
+        <name>Ilias</name>
+        <last_name>Georgakis</last_name>
+        <address>dodekanhson 12</address>
+        <email>geoil@yahoo.com</email>
+        <mobile>6987532122</mobile>
+    </student>
+
+    <student>
+        <name>Alex</name>
+        <last_name>Marinakis</last_name>
+        <address>zeas 38</address>
+        <email>alexmarinakis@yahoo.gr</email>
+        <mobile>6988877654</mobile>
+    </student>
+
+    <student>
+        <name>Elisabeth</name>
+        <last_name>Queen</last_name>
+        <address>egypt 1</address>
+        <email>elisabeth@queens.com</email>
+        <mobile>6543216666</mobile>
+    </student>
+
+
+
+</data>
+
+
+
